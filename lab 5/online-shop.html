@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Інтернет магазин</title>
+    <link rel="stylesheet" href="online-shop.css">
+</head>
+<body>
+<div id="product-form">
+  <h2>Додавання продукту</h2>
+  <input type="text" id="product-name" placeholder="Назва продукту">
+  <input type="number" id="product-price" placeholder="Ціна">
+  <input type="number" id="product-quantity" placeholder="Кількість">
+  <button id="add-product">Додати продукт</button>
+</div>
+
+<div>
+  <h2>Пошук продукту</h2>
+  <input type="text" id="search-name" placeholder="Назва продукту для пошуку">
+  <button id="search-product">Пошук</button>
+</div>
+
+<div id="product-catalog"></div>
+
+<div id="order-form">
+  <h2>Замовлення</h2>
+  <input type="text" id="order-product-id" placeholder="Назва продукту для замовлення">
+  <input type="number" id="order-quantity" placeholder="Кількість для замовлення">
+  <button id="make-order">Зробити замовлення</button>
+</div>
+
+<div id="order-history"></div>
+
+
+<script src="online-shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.countdown-container {
+    text-align: center;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,255,200,0.3);
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#countdown-display {
+    margin-top: 20px;
+    font-size: 24px;
+}

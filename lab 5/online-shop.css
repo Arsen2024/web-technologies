@@ -1,0 +1,26 @@
+#product-form {
+    margin-bottom: 30px;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#product-catalog {
+    margin-top: 30px;
+    padding: 10px;
+}

@@ -1,0 +1,11 @@
+.lamp {
+    width: 100px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+.on {
+    background-color: yellow;
+}

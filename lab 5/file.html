@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Керування лампочкою</title>
+
+</head>
+<body>
+<h1>Керування лампочкою</h1>
+<div class="lamp" id="lamp"></div>
+<button onclick="toggleLamp()">Включити / Виключити</button>
+<select id="lampType" onchange="changeLampType()">
+    <option value="default">Звичайна лампа</option>
+    <option value="energy">Енергозберігаюча</option>
+    <option value="led">Світлодіодна</option>
+</select>
+<button onclick="setBrightness()">Змінити яскравість</button>
+<script src="index.js"></script>
+</body>
+</html>

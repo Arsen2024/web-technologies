@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Календар</title>
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+<div class="calendar-container">
+    <h2>Календар</h2>
+    <div class="calendar-controls">
+        <label>Місяць:
+            <input type="number" id="month-input" min="1" max="12">
+        </label>
+        <label>Рік:
+            <input type="number" id="year-input">
+        </label>
+        <button id="update-calendar">Показати</button>
+    </div>
+    <div id="calendar"></div>
+</div>
+
+<div class="birthday-container">
+    <h2>Час до дня народження</h2>
+    <label>Оберіть день народження:
+        <input type="date" id="birthday-input">
+    </label>
+    <button id="calculate-birthday">Порахувати</button>
+
+    <div id="birthday-result" class="result"></div>
+</div>
+
+<script src="calendar.js"></script>
+</body>
+</html>
